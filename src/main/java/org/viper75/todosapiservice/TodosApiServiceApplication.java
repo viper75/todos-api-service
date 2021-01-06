@@ -13,12 +13,3 @@ public class TodosApiServiceApplication {
     }
 
 }
-
-@Controller
-class HelloController {
-
-    @GetMapping("/")
-    String hello() {
-        return "Hello From heroku";
-    }
-}
